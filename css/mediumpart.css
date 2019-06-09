@@ -1,0 +1,69 @@
+.top{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 50px 0;
+    line-height: 40px;
+
+}
+.top hr{
+    width: 60%;
+}
+.shape{
+    width: 300px;
+    height: 400px;
+    /*background-color: #ffa61b;*/
+    float: left;
+    margin: 30px 10px;
+    text-align: center;
+}
+
+.medium{
+    width: 1000px;
+    height: 500px;
+    margin:  0 auto;
+
+
+
+}
+.fun_ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgba(250,32,0,0.76);
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+.imgbox{
+    position: relative;
+    border: 4px solid #ffffff;
+    box-shadow: 5px 5px 10px #808080;
+}
+.imgbox:hover .fun_ball{
+    opacity: 1;
+    transform:rotate(180deg) scale(1.2);
+}
+.scroll_ball_box{
+    width: 40px;
+    height: 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.scroll_ball{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #808080;
+    float: left;
+    margin:0 5px;
+}
+.scroll_ball:hover{
+    background-color: #ffb935;
+    cursor: pointer;
+}

@@ -1,0 +1,190 @@
+#left_float_nav{
+    width: 40px;
+    height: 300px;
+    position: fixed;
+    left: 0;
+    top: 100px;
+}
+#left_float_nav ul li{
+    width: 35px;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    position: relative;
+    list-style: none;
+}
+#left_float_nav ul li ul{
+    position: absolute;
+    left: 0;
+}
+#nav_color_share{
+    background-color: #795da3;
+    transition: all .3s;
+
+}
+#nav_color_share:hover{
+    width: 120px;
+    overflow: visible;
+    cursor: pointer;
+    padding-left: 8px;
+}
+.show_nav{
+    visibility: hidden;
+    transition: all 1s;
+    opacity: 0;
+
+}
+#nav_color_share:hover .show_nav{
+    visibility: visible;
+    opacity: 1;
+}
+
+#nav_color_share>span{
+    font-size: 22px;
+    line-height: 50px;
+    padding-left: 4px;
+
+}
+#nav_color_share>span:hover{
+    color: #ffffff;
+}
+#nav_color_share>span+span{
+    position: absolute;
+    left: 40px;
+}
+
+
+
+#nav_color_wechat{
+    background-color: #1dc872;
+    transition: all .3s;
+
+}
+#nav_color_wechat:hover{
+    width: 300px;
+    overflow: visible;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+#nav_color_wechat>span{
+    font-size: 22px;
+    line-height: 50px;
+    padding-left: 4px;
+
+}
+#nav_color_wechat>span:hover{
+    color: #ffffff;
+}
+#nav_color_wechat>span+span{
+    font-size: 16px;
+    position: absolute;
+    left: 40px;
+}
+#nav_color_moments{
+    background-color: rgba(44, 154, 246, 0.76);
+    transition: all .3s;
+
+}
+#nav_color_moments:hover{
+    width: 300px;
+    overflow: visible;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+#nav_color_moments>span{
+    font-size: 22px;
+    line-height: 50px;
+    padding-left: 4px;
+
+}
+#nav_color_moments>span:hover{
+    color: #ffffff;
+}
+#nav_color_moments>span+span{
+    font-size: 16px;
+    position: absolute;
+    left: 40px;
+}
+#nav_color_qq{
+    background-color: #f0f0f0;
+    transition: all .3s;
+
+}
+#nav_color_qq:hover{
+    width: 200px;
+    overflow: visible;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+#nav_color_qq>span{
+    font-size: 22px;
+    line-height: 50px;
+    padding-left: 4px;
+
+}
+#nav_color_qq>span:hover{
+    color: #ffffff;
+}
+#nav_color_qq>span+span{
+    font-size: 16px;
+    position: absolute;
+    left: 40px;
+}
+
+#nav_color_qzone{
+    background-color: rgba(250,158,29,0.76);
+    transition: all .3s;
+
+}
+#nav_color_qzone:hover{
+    width: 280px;
+    overflow: visible;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+#nav_color_qzone>span{
+    font-size: 22px;
+    line-height: 50px;
+    padding-left: 4px;
+
+}
+#nav_color_qzone>span:hover{
+    color: #ffffff;
+}
+#nav_color_qzone>span+span{
+    font-size: 16px;
+    position: absolute;
+    left: 40px;
+}
+#nav_color_weibo{
+    background-color: #dc2419;
+    transition: all .3s;
+
+}
+#nav_color_weibo:hover{
+    width: 250px;
+    overflow: visible;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+#nav_color_weibo>span{
+    font-size: 22px;
+    line-height: 50px;
+    padding-left: 4px;
+
+}
+#nav_color_weibo>span:hover{
+    color: #ffffff;
+}
+#nav_color_weibo>span+span{
+    font-size: 16px;
+    position: absolute;
+    left: 40px;
+}

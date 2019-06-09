@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*background-color: aliceblue;*/
+    /*opacity:0.3;*/
+}
+
+.nav>ul>li{
+    width: 100px;
+    height: 40px;
+    float: left;
+   list-style: none;
+    text-align: center;
+    line-height: 35px;
+
+}
+.nav>ul>li:hover{
+    opacity: 0.9;
+    background-color: #7982a5;
+}
+
+.nav span{
+    font-size: 48px;
+    margin-left: 100px;
+    /*font-family: "Cracked Johnnie";*/
+    line-height: 80px;
+    font-family: "French Script MT", serif;
+    font-weight: bold;
+}
+.nav li{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "French Script MT", serif;
+}
+ ul li a{
+    text-decoration: none;
+}
+div ul{
+    float: right;
+    margin-right: 150px;
+    margin-top: 25px;
+}
+#mainarea{
+    width: 100%;
+    height: 760px;
+
+    /*background-image: url("../images/oldman.PNG");*/
+    background-size: 100% 100%;
+}
+.img_box_change img{
+    float: left;
+}
+.img_box_change{
+    width:400%;
+    height: 100%;
+    position: relative;
+    left: 300px;
+    animation: img_change 12s  infinite;
+}
+@-webkit-keyframes img_change {
+    0% {
+        left: 0;
+
+    }
+    50% {
+        left: -100%;
+
+    }
+    75%{
+        left: -200%;
+
+    }
+    100% {
+        left: -300%;
+
+    }
+}
+
+.img_dad{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.control_button{
+    position: relative;
+    top: -350px;
+    z-index: 99;
+}
+.footer{
+    width: 10px;
+    height: 50px;
+    margin-top: 20px;
+}
+.nav_second_list{
+
+
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+   visibility: hidden;
+    background-color: #7982a5;
+
+ }
+
+.nav ul li:hover .nav_second_list{
+    visibility: visible;
+}
+.login{
+    width:360px;
+    height: 500px;
+   position: relative;
+    right: 260px;
+    /*visibility: hidden;*/
+    opacity: 0.9;
+    background-color: #7982a5;
+}
+
+.login button{
+    width: 300px;
+    height: 50px;
+    background-color: chocolate;
+    color: white;
+    font-size: 20px;
+}
+.login input{
+    width: 303px;
+    height: 50px;
+    padding-left: 15px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.login input:focus{
+    background-color: rgba(240,240,240,0.9);
+}
+.login textarea{
+    border-radius: 5px;
+}
+.login textarea:focus{
+    background-color: rgba(240,240,240,0.9);
+}
+.nav ul li:hover .login{
+    visibility: visible;
+}
+.close_button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    background-color: #7982a5;
+    text-align: center;
+    line-height: 50px;
+}
+.close_button:hover{
+    background-color: orangered;
+}
+.left_control_button{
+    width: 30px;
+    height: 60px;
+    background-color: #7982a5;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top:50%;
+}
+.left_control_button:hover{
+    background-color: orangered;
+
+}
+.left_control_button img{
+    margin-top: 16px;
+}
+.right_control_button{
+    width: 30px;
+    height: 60px;
+    background-color: #7982a5;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.right_control_button:hover{
+    background-color: orangered;
+
+}
+.right_control_button img{
+    margin-top: 16px;
+}
+.left_control_button2{
+    width: 30px;
+    height: 60px;
+    background-color: #7982a5;
+    position: absolute;
+    left: 30px;
+    top:50%;
+}
+.left_control_button2:hover{
+    background-color: orangered;
+
+}
+.left_control_button2 img{
+    margin-top: 16px;
+}
+.right_control_button2{
+    width: 30px;
+    height: 60px;
+    background-color: #7982a5;
+    position: absolute;
+    right:30px;
+    top: 50%;
+}
+.right_control_button2:hover{
+    background-color: orangered;
+
+}
+.right_control_button2 img{
+    margin-top: 16px;
+}
+.nav_second_list_content{
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: #7982a5;
+}
+
+.top_text{
+    margin-top: 20px;
+}
+.bottom_text{
+margin-top: 20px;
+}
+.nav_second_list_content div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid gold;
+    margin: auto auto;
+    text-align: center;
+
+}
+.nav_second_list_content:hover{
+    background-color: #fff0b9;
+}
+.nav_second_mainarea{
+    width: 1200px;
+    height: 550px;
+    margin: 40px auto;
+
+
+}
+.nav_second_list_content ul li {
+   list-style: none;
+
+}
+.nav_second_list_content ul li a:hover{
+    color: orangered;
+}
+.nav_second_list_content ul li{
+    text-align: left;
+}
+.nav_second_list_content span{
+    text-align: center;
+    position: relative;
+    left: -80px;
+}
+.nav_second_list_content span a:hover{
+    color:orangered ;
+}
+hr{
+    width: 260px;
+    margin: 0 auto;
+
+}
+.login hr{
+    margin-top: 20px;
+}
+.login_logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    float: left;
+    margin: 5px;
+    background-color:goldenrod ;
+}
+.login_logo>span{
+    font-size: 24px;
+position: relative;
+    margin: 0;
+    top: -20px;
+}
+.login_logo_box{
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+}
+

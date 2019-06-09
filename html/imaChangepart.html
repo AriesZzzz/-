@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+
+        /*div{*/
+            /*width: 100px;*/
+            /*height: 100px;*/
+            /*background-color: #ffb935;*/
+            /*border-radius: 100px;*/
+            /*position: absolute;*/
+            /*top: 500px;*/
+            /*left: 0;*/
+            /*animation: sun_move 3s infinite ;*/
+        /*}*/
+        /*@keyframes sun_move {*/
+            /*0%{*/
+               /*left: 0 ;*/
+                /*!*top:500px ;*!*/
+            /*}*/
+            /*!*20%{*!*/
+                /*!*left:55px ;*!*/
+                /*!*!*top:-100px ;*!*!*/
+            /*!*}*!*/
+            /*40%{*/
+                /*left:110px;*/
+                /*!*top:-70px ;*!*/
+            /*}*/
+            /*!*60%{*!*/
+                /*!*left:165px;*!*/
+                /*!*!*top:-40px ;*!*!*/
+            /*!*}*!*/
+            /*80%{*/
+                /*left:220px ;*/
+                /*!*top:-10px ;*!*/
+            /*}*/
+            /*!*100%{*!*/
+                /*!*left:275px ;*!*/
+                /*!*!*top:0 ;*!*!*/
+            /*!*}*!*/
+        /*}*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .son1{
+            width: 300px;
+            height: 160px;
+            background-color: #55a532;
+            /*position: absolute;*/
+            /*animation: changeson1 2s infinite ;*/
+
+            /*z-index: 1;*/
+            float: left;
+
+        }
+        .son2{
+            width: 300px;
+            height: 160px;
+            background-color: #a53850;
+            float: left;
+            /*position: absolute;*/
+            /*animation: changeson2 2s infinite ;*/
+
+            /*z-index: 2;*/
+        }
+        .son3{
+            width: 300px;
+            height: 160px;
+            /*animation: changeson3x 2s infinite ;*/
+            background-color: #213aa5;
+            float: left;
+            /*position: absolute;*/
+            /*z-index: 3;*/
+        }
+        .dad{
+            width: 300px;
+            height: 160px;
+            /*background-color: #9a6e3a;*/
+            overflow: hidden;
+            /*margin: 0 auto;*/
+
+
+        }
+    .img_box{
+        width: 900px;
+        height: 160px;
+        margin: 0 auto;
+        animation:change_son 6s infinite;
+        position: relative;
+        left: 300px;
+
+    }
+        @keyframes change_son {
+            0%{
+                left: 300px;
+
+            }
+            20%{
+                left:0;
+            }
+            40%{
+                left: 0;
+
+            }
+            60%{
+                left:-300px;
+            }
+            80%{
+                left:-300px;
+            }
+            100%{
+                left: -600px;
+
+            }
+
+        }
+        .rotate div{
+            width: 500px;
+            height: 500px;
+        }
+
+        .up{
+
+            background-color: #55a532;
+            position: absolute;
+            animation: my_rotate1 2s forwards;
+
+        }
+        @-webkit-keyframes my_rotate1 {
+            from{
+                transform: rotateY(-180deg);
+                /*z-index: 0;*/
+            }
+            to{
+                transform: rotateY(0deg);
+                z-index: 3;
+
+
+            }
+        }
+        .down{
+
+            background-color: #a54e6b;
+            position: absolute;
+            animation: my_rotate2 2s forwards;
+        }
+        @-webkit-keyframes my_rotate2 {
+            from{
+                transform: rotateY(0deg);
+                /*z-index: 3;*/
+
+            }
+            to{
+                transform: rotateY(180deg);
+                /*z-index: 0;*/
+            }
+        }
+
+    </style>
+</head>
+<body>
+<!--<div class="dad">-->
+    <!--<div class="img_box">-->
+            <!--<div class="son1"></div>-->
+            <!--<div class="son2"></div>-->
+            <!--<div class="son3"></div>-->
+    <!--</div>-->
+<!--</div>-->
+<div class="rotate">
+<div class="up"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse incidunt laboriosam saepe ut! Aliquam aliquid, amet atque blanditiis cupiditate eaque est incidunt iusto quae quibusdam quod sed tempore temporibus ut!</div>
+<div class="down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores aut commodi, corporis doloremque eos eum excepturi expedita laudantium nesciunt pariatur provident, quae quia quo recusandae, temporibus ullam velit veritatis. </div>
+</div>
+</body>
+</html>
